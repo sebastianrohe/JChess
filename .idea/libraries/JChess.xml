@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JChess">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/JChess_jar/JChess.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
