@@ -8,21 +8,21 @@ public enum GamePanelType {
     WHITE_WINS {
         @Override
         public String getFilePath() {
-            return "images/white_wins.png";
+            return "src/images/white_wins.png";
         }
     },
 
     BLACK_WINS {
         @Override
         public String getFilePath() {
-            return "images/black_wins.png";
+            return "src/images/black_wins.png";
         }
     },
 
     DRAW {
         @Override
         public String getFilePath() {
-            return "images/draw.png";
+            return "src/images/draw.png";
         }
     };
 

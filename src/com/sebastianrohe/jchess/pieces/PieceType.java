@@ -1,6 +1,7 @@
 package com.sebastianrohe.jchess.pieces;
 
 import javax.swing.*;
+import java.net.URL;
 
 /**
  * Manage different piece types.
@@ -10,84 +11,84 @@ public enum PieceType {
     BLACK_PAWN {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/bp.png");
+            return new ImageIcon(getClass().getResource("/images/bp.png"));
         }
     },
 
     BLACK_ROOK {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/br.png");
+            return new ImageIcon(getClass().getResource("/images/br.png"));
         }
     },
 
     BLACK_KNIGHT {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/bn.png");
+            return new ImageIcon(getClass().getResource("/images/bn.png"));
         }
     },
 
     BLACK_BISHOP {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/bb.png");
+            return new ImageIcon(getClass().getResource("/images/bb.png"));
         }
     },
 
     BLACK_KING {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/bk.png");
+            return new ImageIcon(getClass().getResource("/images/bk.png"));
         }
     },
 
     BLACK_QUEEN {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/bq.png");
+            return new ImageIcon(getClass().getResource("/images/bq.png"));
         }
     },
 
     WHITE_PAWN {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/wp.png");
+            return new ImageIcon(getClass().getResource("/images/wp.png"));
         }
     },
 
     WHITE_ROOK {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/wr.png");
+            return new ImageIcon(getClass().getResource("/images/wr.png"));
         }
     },
 
     WHITE_KNIGHT {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/wn.png");
+            return new ImageIcon(getClass().getResource("/images/wn.png"));
         }
     },
 
     WHITE_BISHOP {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/wb.png");
+            return new ImageIcon(getClass().getResource("/images/wb.png"));
         }
     },
 
     WHITE_KING {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/wk.png");
+            return new ImageIcon(getClass().getResource("/images/wk.png"));
         }
     },
 
     WHITE_QUEEN {
         @Override
         public ImageIcon getImageIcon() {
-            return new ImageIcon("images/wq.png");
+            return new ImageIcon(getClass().getResource("/images/wq.png"));
         }
     };
 
